@@ -1,3 +1,3 @@
 In this repository i am going to share all of my progress in "Front End Development"...
 
-These files will contain codes in CSS and HTML mostly.
+These files will contain codes in CSS and HTML on their own. So each file will contain a seperate "Project".
