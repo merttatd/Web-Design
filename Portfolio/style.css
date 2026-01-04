@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #2b1055, #4b1c71);
+    color: #2e2e2e;
+}
+.mainContainer {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #f8f6fc;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(75, 28, 113, 0.3);
+}
+.information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.profileİmage img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 4px solid #7b4bb7;
+}
+.profileInfo h1 {
+    color: #4b1c71;
+    margin-bottom: 6px;
+}
+.profileInfo p {
+    color: #6a5acd;
+    font-weight: bold;
+}
+.aboutMe {
+    margin-bottom: 30px;
+}
+.aboutMe h2 {
+    color: #4b1c71;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c6a7e2;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.aboutMe p {
+    line-height: 1.3;
+}
+.projects h2 {
+    color: #4b1c71;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #c6a7e2;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.project {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #eee9f7;
+    border-left: 5px solid #7b4bb7;
+    border-radius: 6px;
+}
+.project h3 {
+    color: #5a2d82;
+    margin-bottom: 5px;
+}
+.project p {
+    color: #444;
+}
+.contactSection{
+    color: #4b1c71;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #c6a7e2;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.contactSection img{
+    margin-right: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-style: rounded solid;
+    border-radius: 20;
+}
+a{
+     text-decoration: none;
+}
